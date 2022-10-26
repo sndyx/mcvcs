@@ -1,0 +1,9 @@
+main: org.index0.mcvcs.PluginScope
+name: mcvcs
+version: 1.0-SNAPSHOT
+authors:
+ - sndy
+libraries:
+ - org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10
+commands:
+  vcs: {}
