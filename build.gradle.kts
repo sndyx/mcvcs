@@ -9,18 +9,20 @@ group = "org.index0.mcvcs"
 version = "1.0-SNAPSHOT"
 
 repositories {
-    mavenCentral()
+    mavenLocal()
     enginehub()
+    protocolLib()
 }
 
 dependencies {
-    compileOnly(spigot("1.19"))
+    compileOnly(spigotAll("1.19.2"))
     compileOnly(worldedit("7.2.0"))
+    compileOnly(protocolLib("4.5.1"))
 }
 
 spigot {
     authors = listOf("sndy")
     commands {
-        create("vcs")
+        create("branch")
     }
 }

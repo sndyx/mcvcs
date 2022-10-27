@@ -1,4 +1,4 @@
-package org.index0.mcvcs.worldedit
+package org.index0.mcvcs.listener
 
 import com.sk89q.worldedit.EditSession
 import com.sk89q.worldedit.bukkit.BukkitAdapter
@@ -10,7 +10,6 @@ import com.sk89q.worldedit.util.eventbus.Subscribe
 import com.sk89q.worldedit.world.World
 import com.sk89q.worldedit.world.block.BlockStateHolder
 import org.bukkit.Location
-import org.index0.mcvcs.BlockListener
 
 object WorldEditListener {
     

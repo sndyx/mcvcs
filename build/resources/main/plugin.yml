@@ -1,4 +1,4 @@
-main: org.index0.mcvcs.PluginScope
+main: org.index0.mcvcs.VcsPlugin
 name: mcvcs
 version: 1.0-SNAPSHOT
 authors:
@@ -6,4 +6,4 @@ authors:
 libraries:
  - org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10
 commands:
-  vcs: {}
+  branch: {}
